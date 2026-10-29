@@ -1,1 +1,31 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FLETES</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game">
+    <div id="top-panel">
+      <h1>FLETES 🚚</h1>
+      <p id="mission">Misión 1: Cargá las cajas</p>
+      <p id="instructions">Prepará el camión para comenzar.</p>
+    </div>
+
+    <div id="bottom-panel">
+      <button id="load-button">📦 CARGAR CAJAS</button>
+      <button id="drive-button" disabled>🚚 AVANZAR</button>
+      <button id="unload-button" disabled>📦 DESCARGAR</button>
+    </div>
+
+    <div id="message"></div>
+    <div id="game-container"></div>
+  </div>
+
+  <script type="module" src="game.js"></script>
+</body>
+</html>
+
